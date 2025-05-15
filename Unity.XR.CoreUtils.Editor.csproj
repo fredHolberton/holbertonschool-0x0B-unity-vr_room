@@ -104,7 +104,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\BuildValidationRule.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.xr.core-utils\Editor\Resources\BuildingBlockOverlay.uss" />
+    <None Include="Library\PackageCache\com.unity.xr.core-utils\Editor\BuildingBlocks\BuildingBlockOverlay.uss" />
     <None Include="Library\PackageCache\com.unity.xr.core-utils\Editor\Unity.XR.CoreUtils.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>

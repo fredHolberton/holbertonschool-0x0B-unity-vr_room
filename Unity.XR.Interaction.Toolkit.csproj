@@ -85,7 +85,6 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Haptics\XRInputHapticImpulseProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Interactables\DistanceInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Interactables\XRGrabInteractable.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\UI\MouseModel.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Simulation\Hands\HandExpressionName.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Interactors\XRBaseInputInteractor.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Locomotion\Teleportation\TeleportationMultiAnchorVolume.cs" />
@@ -101,6 +100,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Filtering\Target\Evaluators\XRLastSelectedEvaluator.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AffordanceSystem\Receiver\Rendering\ColorMaterialPropertyAffordanceReceiver.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\UI\TrackedDeviceModel.deprecated.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Locomotion\Gravity\IGravityController.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Attachment\IAttachPointVelocityProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Utilities\RequireInterfaceAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Locomotion\Climbing\ClimbSettingsDatum.cs" />
@@ -148,6 +148,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\UI\CanvasTracker.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AR\Interactables\ARScaleInteractable.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\XRInteractionManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Locomotion\Movement\ContinuousMoveProvider.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Utilities\TriggerContactMonitor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Utilities\Tweenables\Primitives\Vector3TweenableVariable.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AR\Gestures\TwistGestureRecognizer.cs" />
@@ -165,6 +166,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AffordanceSystem\Receiver\Rendering\Vector4MaterialPropertyAffordanceReceiver.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AffordanceSystem\Receiver\BaseAsyncAffordanceStateReceiver.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AffordanceSystem\Jobs\TweenJobData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\UI\PointerModel.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AffordanceSystem\Rendering\MaterialInstanceHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Locomotion\Turning\SnapTurnProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Transformers\XRLegacyGrabTransformer.cs" />
@@ -172,8 +174,10 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Filtering\Select\IXRSelectFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Utilities\TeleportationMonitor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Utilities\DisposableManagerSingleton.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Simulation\SimulatedHandExpression.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AffordanceSystem\Receiver\IAsyncAffordanceStateReceiver.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\UI\BodyUI\HandMenu.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Locomotion\Gravity\GravityProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Readers\XRInputButtonReader.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AffordanceSystem\Jobs\ITweenJob.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AffordanceSystem\Receiver\Primitives\FloatAffordanceReceiver.cs" />
@@ -242,6 +246,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\XRHelpURLConstants.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Controllers\XRControllerRecorder.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Filtering\Poke\PokeStateData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Simulation\XRInteractionSimulator.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Locomotion\Teleportation\GazeTeleportationAnchorFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Utilities\ProjectPath.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Locomotion\Climbing\ClimbInteractable.cs" />
@@ -316,6 +321,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Utilities\Collections\CircularBuffer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Utilities\SmallRegistrationList.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Locomotion\Teleportation\TeleportVolumeDestinationSettingsDatumProperty.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Simulation\XRInteractionSimulatorLoader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Simulation\XRDeviceSimulatorLoader.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Readers\XRInputDeviceVector3ValueReader.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Interactors\IXRActivateInteractor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AffordanceSystem\Receiver\ISynchronousAffordanceStateReceiver.cs" />
@@ -325,6 +332,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Utilities\Tweenables\Primitives\FloatTweenableVariable.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AffordanceSystem\Rendering\MaterialPropertyBlockHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Haptics\IXRHapticImpulseChannel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Locomotion\Jump\JumpProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Interactors\Visuals\CurveVisualController.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AffordanceSystem\Theme\Primitives\FloatAffordanceThemeDatum.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Attributes\CanSelectMultipleAttribute.cs" />
@@ -373,6 +381,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AR\Interactables\ARSelectionInteractable.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Locomotion\CharacterControllerBodyManipulator.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Filtering\Target\Evaluators\XRTargetEvaluator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Simulation\XRSimulatorUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AffordanceSystem\Jobs\FloatTweenJob.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Utilities\ExposedRegistrationList.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Interactors\XRPokeInteractor.cs" />
@@ -397,6 +406,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Locomotion\Legacy\ContinuousMoveProviderBase.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AffordanceSystem\Theme\BaseAffordanceTheme.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Haptics\HapticImpulsePlayer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Simulation\SimulatedDeviceLifecycleManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\AffordanceSystem\Receiver\IAffordanceStateReceiver.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Controllers\XRControllerState.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Interactors\NearFarInteractor.cs" />
@@ -411,6 +421,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Utilities\Tweenables\TweenableVariableAsyncBase.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Simulation\XRSimulatedHMD.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Locomotion\LocomotionState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Simulation\SimulatedHandExpressionManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Filtering\Target\Evaluators\XRDistanceEvaluator.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Locomotion\Teleportation\TeleportationArea.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Simulation\Hands\XRDeviceSimulatorHandsSubsystem.cs" />
@@ -419,9 +430,10 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Utilities\Tweenables\Primitives\QuaternionTweenableVariable.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Filtering\Hover\IXRHoverFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Transformers\IXRGrabTransformer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Simulation\XRDeviceSimulatorLoader.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Interaction\Layers\InteractionLayerMask.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Utilities\Curves\CurveUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Locomotion\Gravity\GravityOverride.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Inputs\Simulation\XRDeviceSimulator.deprecated.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Runtime\Unity.XR.Interaction.Toolkit.asmdef" />

@@ -84,6 +84,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\AR\Interactors\ARGestureInteractorEditor.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Interaction\Controllers\XRControllerRecordingEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Feedback\SimpleAudioFeedbackEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Inputs\Simulation\XRInteractionSimulatorEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Interaction\Interactables\XRInteractableSnapVolumeEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Datums\Vector3AffordanceThemeDatumPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\AR\Interactables\ARBaseGestureInteractableEditor.deprecated.cs" />
@@ -117,6 +118,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Feedback\SimpleHapticFeedbackEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Locomotion\Teleportation\TeleportationAnchorEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Utilities\XRInteractionEditorUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Locomotion\Jump\JumpProviderEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Debugger\XRInputDevicesTreeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Inputs\Readers\InputFeatureUsageStringPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Locomotion\Teleportation\TeleportationAreaEditor.cs" />
@@ -136,6 +138,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Inputs\Haptics\XRInputHapticImpulseProviderPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Interaction\Interactors\XRBaseControllerInteractorEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Interaction\Interactors\XRBaseInteractorEditor.deprecated.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Locomotion\Gravity\GravityProviderEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\AR\Interactables\ARTranslationInteractableEditor.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Interaction\Interactors\XRBaseInputInteractorEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Interaction\Interactors\NearFarInteractorEditor.cs" />
@@ -151,6 +154,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Locomotion\Climbing\ClimbSettingsDatumPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Locomotion\Comfort\TunnelingVignetteControllerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\AR\Interactables\ARPlacementInteractableEditor.deprecated.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Interaction\Attachment\InteractionAttachControllerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Inputs\Readers\XRInputValueReaderPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Interaction\Interactables\XRBaseInteractableEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Interaction\Filtering\Poke\PokeThresholdDatumPropertyDrawer.cs" />
@@ -166,6 +170,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Interaction\Controllers\XRBaseControllerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Utilities\CompactPropertyControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Locomotion\Climbing\ClimbInteractableEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Inputs\Simulation\SimulatedDeviceLifecycleManagerEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.interaction.toolkit\Editor\Unity.XR.Interaction.Toolkit.Editor.asmdef" />

@@ -1070,11 +1070,13 @@
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj" />
     <ProjectReference Include="Unity.Multiplayer.Center.Editor.csproj" />
     <ProjectReference Include="Unity.Mathematics.Editor.csproj" />
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Analytics.Hooks.Editor.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.GPUDriven.Runtime.csproj" />
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj" />
     <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.csproj" />
     <ProjectReference Include="Unity.Collections.csproj" />
     <ProjectReference Include="PPv2URPConverters.csproj" />
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj" />
     <ProjectReference Include="Unity.Rendering.LightTransport.Editor.csproj" />
     <ProjectReference Include="Unity.XR.Management.Editor.csproj" />
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj" />
@@ -1092,7 +1094,6 @@
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj" />
     <ProjectReference Include="Unity.XR.Management.csproj" />
     <ProjectReference Include="Unity.TextMeshPro.csproj" />
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj" />
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj" />
     <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj" />
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj" />
@@ -1102,8 +1103,10 @@
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj" />
     <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj" />
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Analytics.Editor.csproj" />
     <ProjectReference Include="Unity.VisualScripting.State.csproj" />
     <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj" />
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj" />
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj" />
     <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.csproj" />
     <ProjectReference Include="Unity.Burst.Editor.csproj" />
@@ -1113,7 +1116,6 @@
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj" />
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj" />
     <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj" />
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj" />
     <ProjectReference Include="Unity.Rendering.LightTransport.Runtime.csproj" />
     <ProjectReference Include="UnityEditor.SpatialTracking.csproj" />
     <ProjectReference Include="Unity.InputSystem.csproj" />

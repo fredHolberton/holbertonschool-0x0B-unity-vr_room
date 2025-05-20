@@ -701,8 +701,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Nodes\Input\Gradient\SampleGradientNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Generation\Targets\Fullscreen\FullscreenMetaData.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Nodes\Input\Geometry\TangentVectorNode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Util\FunctionRegistry.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Graphs\TangentMaterialSlot.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Util\FunctionRegistry.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Nodes\Math\Interpolation\InverseLerpNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Attributes\SGPropertyDrawerAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Generation\Targets\BuiltIn\Editor\ShaderGraph\Targets\BuiltInSubTarget.cs" />

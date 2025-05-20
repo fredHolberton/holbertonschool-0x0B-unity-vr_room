@@ -78,11 +78,11 @@
     <Compile Include="Library\PackageCache\com.unity.xr.openxr\Runtime\Features\Interactions\HandInteractionProfile.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr\Runtime\Features\Interactions\KHRSimpleControllerProfile.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr\Runtime\Features\FoveatedRenderingFeature.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr\Runtime\OpenXRLoaderInternal.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr\Runtime\Features\OpenXRInteractionFeature.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr\Runtime\CompositionLayers\OpenXRCompositionLayersFeature.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr\Runtime\OpenXRDiagnosticReport.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr\Runtime\CompositionLayers\OpenXRCylinderLayer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr\Runtime\OpenXRLoaderBase.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr\Runtime\Features\Interactions\EyeGazeInteraction.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr\Runtime\Features\Interactions\ValveIndexControllerProfile.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr\Runtime\CompositionLayers\OpenXRDefaultLayer.cs" />
@@ -121,11 +121,11 @@
     <Compile Include="Library\PackageCache\com.unity.xr.openxr\Runtime\input\OpenXRInput.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.xr.openxr\Runtime\universalwindows\arm32\UnityOpenXR.dll" />
-    <None Include="Library\PackageCache\com.unity.xr.openxr\Runtime\universalwindows\x64\UnityOpenXR.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr\Runtime\universalwindows\arm64\UnityOpenXR.dll" />
     <None Include="Library\PackageCache\com.unity.xr.openxr\Runtime\windows\x64\UnityOpenXR.dll" />
     <None Include="Library\PackageCache\com.unity.xr.openxr\Runtime\Unity.XR.OpenXR.asmdef" />
-    <None Include="Library\PackageCache\com.unity.xr.openxr\Runtime\universalwindows\arm64\UnityOpenXR.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr\Runtime\universalwindows\arm32\UnityOpenXR.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr\Runtime\universalwindows\x64\UnityOpenXR.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

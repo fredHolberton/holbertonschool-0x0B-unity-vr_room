@@ -68,11 +68,11 @@
     <Compile Include="Library\PackageCache\com.unity.xr.openxr\ConformanceAutomation\ConformanceAutomationFeature.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.xr.openxr\ConformanceAutomation\windows\x64\ConformanceAutomationExt.dll" />
-    <None Include="Library\PackageCache\com.unity.xr.openxr\ConformanceAutomation\Unity.XR.OpenXR.Features.ConformanceAutomation.asmdef" />
     <None Include="Library\PackageCache\com.unity.xr.openxr\ConformanceAutomation\universalwindows\x64\ConformanceAutomationExt.dll" />
-    <None Include="Library\PackageCache\com.unity.xr.openxr\ConformanceAutomation\universalwindows\arm64\ConformanceAutomationExt.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr\ConformanceAutomation\Unity.XR.OpenXR.Features.ConformanceAutomation.asmdef" />
     <None Include="Library\PackageCache\com.unity.xr.openxr\ConformanceAutomation\universalwindows\arm32\ConformanceAutomationExt.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr\ConformanceAutomation\windows\x64\ConformanceAutomationExt.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr\ConformanceAutomation\universalwindows\arm64\ConformanceAutomationExt.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

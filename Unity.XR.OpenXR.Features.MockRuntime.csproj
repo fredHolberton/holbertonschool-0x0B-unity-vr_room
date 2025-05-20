@@ -70,9 +70,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.openxr\MockRuntime\Unity.XR.OpenXR.Features.MockRuntime.asmdef" />
-    <None Include="Library\PackageCache\com.unity.xr.openxr\MockRuntime\windows\x64\mock_api.dll" />
     <None Include="Library\PackageCache\com.unity.xr.openxr\MockRuntime\windows\x64\mock_runtime.dll" />
     <None Include="Library\PackageCache\com.unity.xr.openxr\MockRuntime\windows\x64\openxr_loader.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr\MockRuntime\windows\x64\mock_api.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
